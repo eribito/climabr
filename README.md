@@ -26,4 +26,5 @@ Para abrir a aplicação, execute o comando:
 
 `ionic serve`
 
-Enjoy!
+# Vídeo de apresentação
+https://www.youtube.com/watch?v=JzBlD38a1b8
