@@ -19,6 +19,9 @@
           *ngIf="hasError"
         ></app-error-message>
         <ion-list lines="none" *ngIf="!hasError">
+          <ion-list-header *ngIf="hasSavedCitiesOnHistory">
+            Últimas consultas
+          </ion-list-header>
           <app-city-details
             *ngFor="let city of cities"
             id="{{city.id}}"
